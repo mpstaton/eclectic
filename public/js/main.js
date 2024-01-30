@@ -37,18 +37,4 @@ document.addEventListener('DOMContentLoaded', function() {
             });
         }
     }
-
-    const searchButton = document.querySelectorAll('.searchButton');
-    const searchInput = document.querySelectorAll('.animate-searchInput');
-
-    if (searchButton.length && searchInput.length) {
-        for (var i = 0; i < searchButton.length; i++) {
-            searchButton[i].addEventListener('click', function() {
-                for (var j = 0; j < searchInput.length; j++) {
-                    searchInput[j].classList.remove('hidden');
-                }
-            });
-        }
-    }
-
 });
