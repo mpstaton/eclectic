@@ -1071,12 +1071,12 @@ video {
 
 .border-purple-200 {
   --tw-border-opacity: 1;
-  border-color: rgb(223 185 207 / var(--tw-border-opacity));
+  border-color: rgb(17 54 98 / var(--tw-border-opacity));
 }
 
 .border-purple-700 {
   --tw-border-opacity: 1;
-  border-color: rgb(136 28 91 / var(--tw-border-opacity));
+  border-color: rgb(17 54 98 / var(--tw-border-opacity));
 }
 
 .bg-body {
